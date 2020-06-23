@@ -1,0 +1,14 @@
+{
+  "evaluator": "鲨鱼辣椒",
+  "interviewee": "马子辰",
+  "clarification" : 8,
+  "clarify_feedback": "The candidate has fair clarification, but he did not clarify the return type of the function",
+  "demonstration" : 10,
+  "demo_feedback" : "",
+  "coding" : 8,
+  "coding_feedback" : "The candidate have small errors in his code",
+  "analysis" : 10,
+  "analysis_feedback" : "",
+  "communication" : 6,
+  "communication_feedback": ""
+}

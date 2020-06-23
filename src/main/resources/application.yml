@@ -1,0 +1,8 @@
+server:
+  port: 9000
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/flag2020?useSSL=false&serverTimezone=UTC
+    username: root
+    password: qin528528
