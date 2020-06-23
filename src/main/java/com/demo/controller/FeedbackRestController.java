@@ -15,11 +15,20 @@ public class FeedbackRestController {
     @Autowired
     private FeedbackService feedbackService;
 
+    /**
+     * @return list of feedback json array
+     */
     @GetMapping("/feedback")
     public List<Feedback> listAllFeedback() {
         return feedbackService.listAllFeedback();
     }
 
+
+    /**
+     *
+     * @param id -> primary
+     * @return
+     */
     @GetMapping("/feedback/{id}")
     public Feedback listFeedbackById(@PathVariable int id) {
         return feedbackService.listFeedbackById(id);
